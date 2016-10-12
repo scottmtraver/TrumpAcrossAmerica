@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./app.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+</head>
+<body>
+<h3 class="ui center aligned block header">
+  Trump Across America
+</h3>
+<a class="top-control-mark" name="top-of-page"></a> 
+<div id="map" href="top">
+</div>
+<div id="panel" v-if="stateData" class="ui raised segment">
+  <h1 class="ui center aligned header">{{ stateData.name }}</h1>
+  <div v-for="item in stateData.comments" class="ui items">
+    <div class="item">
+      <div class="ui tiny image">
+        <img v-bind:src="item.photo">
+      </div>
+      <div class="content">
+        <a class="header">
+          {{ item.date }}
+        </a>
+        <div class="meta">
+          <span class="quote-block">{{ item.quote }}</span>
+        </div>
+        <div class="description">
+          <p></p>
+        </div>
+        <div class="extra">
+          <a v-bind:href="item.link" target="_blank">Full Articel</a>
+          <a href="#top-of-page" class="top-control">Map</a> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
+

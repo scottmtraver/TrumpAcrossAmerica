@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Alabama",
+    "comments": [
+      {
+        "quote": "Bacon ipsum dolor amet t-bone flank meatball pancetta turducken shankle bresaola strip steak. Tail short ribs salami pig biltong frankfurter, capicola pork pork chop swine. T-bone beef swine pig ham hock pancetta venison chuck biltong doner hamburger shankle andouille spare ribs turkey. T-bone shankle venison, strip steak pork loin pork chop pastrami ham hock prosciutto kevin jowl biltong turkey.",
+        "link": "http://www.example.com",
+        "date": "2016-12-12",
+        "photo": "https://placekitten.com/200/300"
+      }
+    ]
+  },
+  {
+    "name": "California",
+    "comments": [
+      {
+        "quote": "Bacon ipsum dolor amet t-bone flank meatball pancetta turducken shankle bresaola strip steak. Tail short ribs salami pig biltong frankfurter, capicola pork pork chop swine. T-bone beef swine pig ham hock pancetta venison chuck biltong doner hamburger shankle andouille spare ribs turkey. T-bone shankle venison, strip steak pork loin pork chop pastrami ham hock prosciutto kevin jowl biltong turkey.",
+        "link": "http://www.example.com",
+        "date": "2016-12-12",
+        "photo": "https://placekitten.com/400/400"
+      },
+      {
+        "quote": "Bacon ipsum dolor amet t-bone flank meatball pancetta turducken shankle bresaola strip steak. Tail short ribs salami pig biltong frankfurter, capicola pork pork chop swine. T-bone beef swine pig ham hock pancetta venison chuck biltong doner hamburger shankle andouille spare ribs turkey. T-bone shankle venison, strip steak pork loin pork chop pastrami ham hock prosciutto kevin jowl biltong turkey.",
+        "link": "http://www.example.com",
+        "date": "2016-12-12",
+        "photo": "https://placekitten.com/200/300"
+      }
+    ]
+  }
+]

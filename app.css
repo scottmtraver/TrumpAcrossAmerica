@@ -1,0 +1,59 @@
+
+/* On mouse hover, lighten state color */
+path:hover {
+	fill-opacity: .7;
+}
+
+/* Legend Font Style */
+body {
+	font: 11px sans-serif;
+}
+
+#panel {
+  display: inline-block;
+  margin-left: 4%;
+  width: 30%;
+  position: absolute;
+}
+.top-control {
+  display: none;
+}
+.top-control-mark {
+  visibility: hidden;
+}
+
+#map {
+  display: inline-block;
+  text-align: center;
+  width: 65%;
+}
+@media (max-width: 600px) {
+  #panel {
+    width: 90%;
+    display: inherit;
+    text-align: center;
+  }
+  #map {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .top-control {
+    display: inherit;
+    float: right;
+    color: #B8B8B8;
+  }
+}
+
+.quote-block {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  max-width: 400px;
+  height: 18*1.4*3; /* Fallback for non-webkit */
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.4;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
